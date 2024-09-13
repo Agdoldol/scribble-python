@@ -20,3 +20,17 @@ print(str(num)+mosiclab)
 #if you want to handle the string, you must know 'postion of a character' identified with the numbers
 print("I",honghapp[-6],mosiclab[10],"v","e","y",honghapp[8],"u")
 #as you can see 21st code, 'is delicious' code has start with 0 identified charecter number and it can also see as -1 to~ if it is count its end
+
+#you can do thing in back, this is called 'index'
+print(honghapp.index('i'))
+print(honghapp.rindex('d'))
+print(honghapp.rfind('e'))
+
+#In this time, we are going to study math! Ohno~ funny
+var1 = 'is new variable'
+print(var1[0:1])
+print(var1[:3])
+print(var1[3:])
+print(var1[-5:-3])
+#you can see the results that include the first order but not the last order, it includes 'last number-1'
+#so this feature can be organized by this!!-> [a:b] means [a to b-1] whatever the 'a' is none
